@@ -4,23 +4,102 @@ import MaterialTable from 'material-table';
 export default function MaterialTableDemo() {
   const [state, setState] = React.useState({
     columns: [
-      { title: 'Name', field: 'name' },
-      { title: 'Surname', field: 'surname' },
-      { title: 'Birth Year', field: 'birthYear', type: 'numeric' },
-      {
-        title: 'Birth Place',
-        field: 'birthCity',
-        lookup: { 34: 'İstanbul', 63: 'Şanlıurfa' },
-      },
+      { title: 'First Name', field: 'firstName' },
+      { title: 'Last Name', field: 'lastName' },
+      { title: 'Role', field: 'role' },
+      { title: 'Department',field: 'department'},
+      { title: 'Salary', field: 'salary', type: 'numeric'}
     ],
     data: [
-      { name: 'Mehmet', surname: 'Baran', birthYear: 1987, birthCity: 63 },
-      {
-        name: 'Zerya Betül',
-        surname: 'Baran',
-        birthYear: 2017,
-        birthCity: 34,
-      },
+        {
+            firstName: 'Zerya',
+            lastName: 'Bravo',
+            id: '50',
+            role: 'CPA',
+            department: 'Accounting',
+            salary: '160,000'
+        },
+        {
+            firstName: 'Zerya',
+            lastName: 'Bravo',
+            id: '50',
+            role: 'CPA',
+            department: 'Accounting',
+            salary: '160,000'
+        },
+        {
+            firstName: 'Zerya',
+            lastName: 'Bravo',
+            id: '50',
+            role: 'CPA',
+            department: 'Accounting',
+            salary: '160,000'
+        },
+        {
+            firstName: 'Zerya',
+            lastName: 'Bravo',
+            id: '50',
+            role: 'CPA',
+            department: 'Accounting',
+            salary: '160,000'
+        },
+        {
+            firstName: 'Zerya',
+            lastName: 'Bravo',
+            id: '50',
+            role: 'CPA',
+            department: 'Accounting',
+            salary: '160,000'
+        },
+        {
+            firstName: 'Zerya',
+            lastName: 'Bravo',
+            id: '50',
+            role: 'CPA',
+            department: 'Accounting',
+            salary: '160,000'
+        },
+        {
+            firstName: 'Zerya',
+            lastName: 'Bravo',
+            id: '50',
+            role: 'CPA',
+            department: 'Accounting',
+            salary: '160,000'
+        },
+        {
+            firstName: 'Zerya',
+            lastName: 'Bravo',
+            id: '50',
+            role: 'CPA',
+            department: 'Accounting',
+            salary: '160,000'
+        },
+        {
+            firstName: 'Zerya',
+            lastName: 'Bravo',
+            id: '50',
+            role: 'CPA',
+            department: 'Accounting',
+            salary: '160,000'
+        },
+        {
+            firstName: 'Zerya',
+            lastName: 'Bravo',
+            id: '50',
+            role: 'CPA',
+            department: 'Accounting',
+            salary: '160,000'
+        },
+        {
+            firstName: 'Zerya',
+            lastName: 'Bravo',
+            id: '50',
+            role: 'CPA',
+            department: 'Accounting',
+            salary: '160,000'
+        },
+        
     ],
   });
 

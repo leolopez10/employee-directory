@@ -5,6 +5,7 @@ import Table from "./components/Table/index";
 function App() {
   return (( 
   <div>
+    <Header></Header>
     <Table></Table>
   </div>
  
